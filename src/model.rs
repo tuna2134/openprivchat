@@ -1,6 +1,6 @@
 #[derive(Debug)]
 pub enum Permission {
-    ReadChannel, // 1 << 0
+    ReadChannel,   // 1 << 0
     CreateChannel, // 1 << 1
     UpdateChannel, // 1 << 2
 }
